@@ -1,4 +1,4 @@
-public class QuantityMeasurementApp {
+public class UC1_FeetEquality {
 
     static class Feet {
         private final double value;
@@ -21,6 +21,6 @@ public class QuantityMeasurementApp {
         Feet f1 = new Feet(1.0);
         Feet f2 = new Feet(1.0);
 
-        System.out.println("Equal: " + f1.equals(f2));
+        System.out.println("UC1 Feet Equal: " + f1.equals(f2));
     }
 }
