@@ -68,7 +68,7 @@ public class UC7_TargetAddition {
         Quantity f1 = new Quantity(1.0, LengthUnit.FEET);
         Quantity i12 = new Quantity(12.0, LengthUnit.INCH);
 
-        // 🔥 UC7 examples
+        //  UC7 examples
         System.out.println("Target FEET: " +
                 Quantity.add(f1, i12, LengthUnit.FEET));   // 2 FEET
 
